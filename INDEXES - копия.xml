@@ -1,0 +1,48 @@
+<indexes>
+	<index table_name="CMS_CF_REASON" index_name="CFRS_PK">
+		<columns>
+			<column column_name="CFRS_ID" column_position="1"/>
+		</columns>
+	</index>
+	<index table_name="CMS_CF_REASON" index_name="CFRS_KEY_NAME_UK">
+		<columns>
+			<column column_name="KEY_NAME" column_position="1"/>
+		</columns>
+	</index>
+	<index table_name="CMS_CF_REASON" index_name="CFRS_NAME_UK">
+		<columns>
+			<column column_name="NAME" column_position="1"/>
+		</columns>
+	</index>
+	<index table_name="CMS_CF_QUESTION_TEMPLATE" index_name="QSTP_PK">
+		<columns>
+			<column column_name="QSTP_ID" column_position="1"/>
+		</columns>
+	</index>
+	<index table_name="CMS_CF_QUESTION_TEMPLATE" index_name="QSTP_LNUMBER_CFTP_UK">
+		<columns>
+			<column column_name="CFTP_CFTP_ID" column_position="1"/>
+			<column column_name="LINE_NUMBER" column_position="2"/>
+		</columns>
+	</index>
+	<index table_name="CMS_CF_QUESTION_TEMPLATE" index_name="QSTP_CFTP_FK">
+		<columns>
+			<column column_name="CFTP_CFTP_ID" column_position="1"/>
+		</columns>
+	</index>
+	<index table_name="CMS_CF_QUESTION_HIST" index_name="QSHS_QSDC_FK">
+		<columns>
+			<column column_name="QSDC_QSDC_ID" column_position="1"/>
+		</columns>
+	</index>
+	<index table_name="CMS_CF_QUESTION_HIST" index_name="QSHS_PK">
+		<columns>
+			<column column_name="QSHS_ID" column_position="1"/>
+		</columns>
+	</index>
+	<index table_name="CMS_CF_QUESTION_HIST" index_name="QSHS_OPER_FK">
+		<columns>
+			<column column_name="OPER_OPER_ID" column_position="1"/>
+		</columns>
+	</index>
+</indexes>

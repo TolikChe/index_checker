@@ -1,0 +1,23 @@
+<indexes>
+	<index table_name="CMS_CF_QUESTION_TEMPLATE" index_name="QSTP_LNUMBER_CFTP_UK">
+		<columns>
+			<column column_name="CFTP_CFTP_ID" column_position="1"/>
+			<column column_name="LINE_NUMBER" column_position="2"/>
+		</columns>
+	</index>
+	<index table_name="CMS_CF_REASON" index_name="CFRS_PK">
+		<columns>
+			<column column_name="CFRS_ID" column_position="1"/>
+		</columns>
+	</index>
+	<index table_name="CMS_CF_REASON" index_name="CFRS_KEY_NAME_UK">
+		<columns>
+			<column column_name="KEY_NAME" column_position="1"/>
+		</columns>
+	</index>
+	<index table_name="CMS_CF_REASON" index_name="CFRS_NAME_UK">
+		<columns>
+			<column column_name="NAME" column_position="1"/>
+		</columns>
+	</index>
+</indexes>
